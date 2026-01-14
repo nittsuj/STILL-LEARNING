@@ -17,5 +17,12 @@ int main() {
 	printf("Your name: %s\n", name);
 	printf("Your age: %d\n", age);
 	
+	printf("\n");
+	printf("Size of INT in Bytes: %d\n", sizeof(int));
+	printf("Size of FLOAT in Bytes: %d\n", sizeof(float));
+	printf("Size of CHAR in Bytes: %d\n", sizeof(char));
+	// REMEMBER: 1 byte = 8 bits
+
+	printf("\n");
 	return 0;	// program executed successfully
 }
